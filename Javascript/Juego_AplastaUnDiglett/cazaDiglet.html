@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Whack a mole</title>
+    <link rel="stylesheet" href="cazaDiglet.css" />
+    <script src="cazaDiglet.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <div class="player">
+        <div class="player-title">
+          <h1>¡ Ataca a Diglet !</h1>
+        </div>
+        <div class="player-score">
+          <h2>Puntuación:</h2>
+          <h2 data-function="score">0</h2>
+        </div>
+        <div class="player-time">
+          <h2>Tiempo restante:</h2>
+          <h2 data-function="time-left">30</h2>
+        </div>
+      </div>
+      <img
+        src="../Juego_AplastaUnDiglett/public/cazaDiglet/linePkmn.svg"
+        alt="Pokeball Separator"
+        class="separadorPkmn"
+      />
+      <div class="b-grid">
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+      </div>
+    </section>
+  </body>
+</html>
