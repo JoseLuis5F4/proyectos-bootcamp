@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Game of Thrones";
+  src: url(../src/fonts/Game\ of\ Thrones.ttf);
+
+  @media screen and (max-width: 570px) {
+    background-size: auto;
+  }
+}
+
+body {
+  font-family: "Game of Thrones", sans-serif;
+  background-color: black;
+}

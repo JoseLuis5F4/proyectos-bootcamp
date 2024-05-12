@@ -1,0 +1,366 @@
+body{
+    background-color: #FEFEFE;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1{
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-bottom: 0.5%;
+}
+
+h3{
+    color: #FFFFFF;
+    font-weight: regular;
+    margin: 0% 0% 1% 5%;
+}
+
+h4{
+    color: #000000;
+    font-weight: bolder;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+h5{
+    color: #C0C0C0;
+    font-weight: lighter;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    padding: 30px;
+}
+
+b{
+    font-size: 10px;
+    margin: 2px;
+}
+
+/*HEADER*/
+
+.header-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: row;
+    justify-content: space-between;
+    background-image: url('IMG/BMW\ en\ ciudad.jpg');
+    background-size: cover;
+    /*position: sticky;
+    top: 10px;
+    background-color: transparent;*/
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 10%;
+    padding: 0px;
+}
+
+.nav-header-section-a{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.links-header-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 50px;
+    padding: 0px;
+}
+
+.nav-img{
+    width: 50px; 
+    object-fit: cover;
+}
+
+.nav-hr-border{
+    width: 75%;
+    border-width: 2px;
+}
+
+.discover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 700px;
+    padding: 30px;
+    }
+
+    .cta-button{
+        width: 50px;
+        height: auto;
+        color: #FFFFFF;
+        background-color: #1C69D5;
+        padding: 10px 100px 15px 100px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 5%;
+        font-size: 15px;
+    }
+
+/*GALERY SECTION*/
+
+    .catalog{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .catalog-types{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .galery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .car{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3%;
+    }
+
+    .car-link{
+        padding: 0;
+    }
+
+    .img-car{
+        width: 250px;
+        height: 200px;
+    }
+
+/*POST SECTION*/
+
+    .news{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        margin: 40px 0px;
+    }
+
+    .post{
+        position: relative;
+        width: 20%;
+        margin: 0.3%; 
+        padding: 0.5%;
+        border: #C0C0C0 solid;
+        border-radius: 0.1% solid;
+        border-width: 1px;
+        background-color: #FEFEFE;
+    }
+
+    .post-img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .post-title{
+        font-size: 35px;
+        text-align: left;
+        margin: 5% 1% 5% 1%;
+    }
+
+    .post-title2{
+        font-size: 34px;
+        text-align: left;
+        margin: 5% 1% 5% 1%;
+    }
+
+    .post-para{
+        font-size: 12px;
+        text-align: justify;
+        margin: 2%;
+        max-height: auto;
+    }
+
+    .post-link{
+        display: inline-block;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        text-align: end;
+        padding: 0;
+        margin-left: 1%;
+        /*float: inline-start;*/
+    }
+
+/*MEDIA SECTION*/
+
+    .media-post{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        margin: 100px 20px;
+        height: 50%;
+    }
+
+    .media-post-access{
+        position: relative;
+        width: 40%;
+        height: auto;
+        margin: 0.3%; 
+        padding: 0.5%;
+        border: #C0C0C0 solid;
+        border-width: 1px;
+        border-radius: 1% solid;
+        background-color: #FEFEFE;
+    }
+
+/*LINKER SECTION*/
+
+    .linker-section{
+        display: flex;
+        flex-wrap: column;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .b-linker{
+        width: 200px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #E6E6E6;
+        margin: 1%;
+    }
+
+    .img-linker{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    span{
+        color: #000000;
+        font-weight: bold;
+        margin: 10px 0px 0px 0px;
+    }
+
+/*FOOTER*/
+
+.footer-section-bmw{
+    background-color: #E6E6E6;
+}
+    .footer-hr{
+        margin: 5% 15% 0% 15%;
+    }
+    
+    .footer-section-bmw-content{
+        display: flex;
+        flex-wrap: column;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0.5% 2% 2% 2%;
+    }
+
+    .footer-contact{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 5%;
+    }
+
+    .footer-title{
+        font-size: 20px;
+        text-align: justify;
+        margin: 0px 0px 15px 0px;
+    }
+
+    .footer-contact-links span{
+        display: block;
+        font-size: 8px;
+        margin: 1px 0px 10px 0px;
+    }
+
+    .footer-worldbmw{
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 5%;
+    }
+
+    .footer-gamabmw{
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 5%;
+    }
+
+    .footer-rrss{
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 5%;
+    }
+
+    .footer-link-span a{
+        display: block;
+        font-size: 8px;
+        margin: 1px 0px 10px 0px;
+    }
+
+    .copyrights-legal{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: column;
+        justify-content: space-around;
+        margin: 1%;
+        padding: 0;
+    }
+
+    .bmw-copyrights{
+        width: 300px;
+        margin: 0% 0% 0% 5%;
+    }
+
+.legal-links-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 0px;
+}
+
+    .legal-links{
+        display: inline-block;
+        width: 190px;
+        margin: 0% 1%;
+        font-size: 12px;
+        padding: 0;
+    }

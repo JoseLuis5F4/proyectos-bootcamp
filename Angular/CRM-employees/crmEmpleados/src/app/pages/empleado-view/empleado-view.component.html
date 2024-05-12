@@ -1,0 +1,25 @@
+<section class="container mt-3">
+  <div class="card shadow border-1 border-danger p-3">
+    <h3>{{ empleado.nombre }} {{ empleado.apellidos }}</h3>
+    <ul>
+      <li>Email: {{ empleado.email }}</li>
+      <li>Salario: {{ empleado.salario }}</li>
+      <li>Tlfno: {{ empleado.telefono }}</li>
+    </ul>
+
+    <div class="d-flex">
+      <a class="btn btn-secondary" [href]="'/empleados#' + empleado._id">
+        Volver al listado
+      </a>
+      <button class="btn btn-danger" (click)="onDelete(empleado._id)">
+        Borrar Empleado
+      </button>
+      <a
+        href=""
+        class="btn btn-warning m-2"
+        [routerLink]="['/actualizar-empleado', empleado._id]"
+        >Actualizar</a
+      >
+    </div>
+  </div>
+</section>

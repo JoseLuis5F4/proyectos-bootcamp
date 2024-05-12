@@ -1,0 +1,93 @@
+.mainContainer {
+  margin: 0px 120px;
+  padding-top: 50px;
+}
+
+.db-crono {
+  max-height: 400px;
+  overflow-y: auto;
+  width: 100%;
+  top: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 135px;
+  margin-top: 80px;
+}
+
+.characters-cronologia-par {
+  border-top: 2px solid white;
+  margin-top: 50px;
+  display: flex;
+  color: white;
+  color: white;
+  font-size: 15px;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    border-radius: 50%;
+    width: 100px;
+    height: 105px;
+    margin: -3px;
+    object-fit: cover;
+  }
+
+  h3 {
+    margin: 3px;
+  }
+  h4 {
+    margin: 4px;
+  }
+}
+
+.characters-cronologia-impar {
+  border-top: 2px solid white;
+  display: flex;
+  color: white;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  flex-direction: column;
+
+  img {
+    border-radius: 50%;
+    width: 100px;
+    height: 105px;
+    margin: -3px;
+    object-fit: cover;
+  }
+
+  h3 {
+    margin: 3px;
+  }
+  h4 {
+    margin: 4px;
+  }
+}
+
+.contenedor {
+  position: relative;
+}
+
+.counter {
+  position: absolute;
+  left: 47.5%;
+}
+
+.arrow {
+  position: absolute;
+  left: 48.25%;
+  margin-top: 48px;
+}
+
+.db-barra {
+  position: absolute;
+  position: fixed;
+  height: 70%;
+  width: 3px;
+  background-color: white;
+  left: 49.5%;
+  transform: translateX(-50%);
+  margin-top: 7.5%;
+  top: 14px;
+}

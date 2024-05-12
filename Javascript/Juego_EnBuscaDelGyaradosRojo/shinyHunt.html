@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shiny Hunt</title>
+    <script src="shinyHunt.js" defer></script>
+    <link rel="stylesheet" href="shinyHunt.css" />
+  </head>
+  <body class="waves">
+    <header class="background-overlay">
+      <div class="headerTitle">
+        <h1>
+          Encuentra al Gyarados Rojo en el Lago Furia antes que el Team Rocket
+        </h1>
+      </div>
+      <div class="player">
+        <h3 class="attempts">
+          Intentos: <span data-function="attempts">0</span>
+        </h3>
+        <div class="timer">
+          <svg
+            id="progressBar"
+            width="100%"
+            height="30"
+            viewBox="0 0 100 30"
+            fill="none"
+          >
+            <rect
+              width="100%"
+              height="100%"
+              fill="none"
+              stroke="#000"
+              strokeWidth="1"
+              rx="15"
+            />
+            <rect
+              id="progress"
+              width="100px"
+              height="100%"
+              fill="url(#gradient)"
+              rx="15"
+            />
+            <text id="timerNumber" class="timerNumber"></text>
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: rgb(255, 0, 0); stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: rgb(255, 102, 102); stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </header>
+    <table>
+      <tbody class="tbody" data-function="board"></tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+.detalle-casa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+  color: white;
+  font-size: 13px;
+}
+
+.backBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-family: "Arial";
+  font-size: 25px;
+  padding: 27px;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+
+.detalle-casa-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+.info-casa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: top;
+  gap: 100px;
+
+  section {
+    align-items: center;
+    overflow-y: auto;
+    max-height: 180px;
+    text-align: center;
+  }
+
+  p {
+    font-size: smaller;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    font-size: smaller;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin-bottom: 12px;
+    }
+  }
+}

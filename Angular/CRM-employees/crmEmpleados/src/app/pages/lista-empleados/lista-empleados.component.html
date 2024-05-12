@@ -1,0 +1,15 @@
+<section class="container empleados">
+  <h1>Lista de Empleados</h1>
+  <hr />
+
+  <div class="row g-3">
+    <article
+      *ngFor="let empleado of arrEmpleados"
+      class="col-12 col-md-6 col-lg-3"
+    >
+      <div [id]="">
+        <app-empleado-card [empleadito]="empleado"></app-empleado-card>
+      </div>
+    </article>
+  </div>
+</section>

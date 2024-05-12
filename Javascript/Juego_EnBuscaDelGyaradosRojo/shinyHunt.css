@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "PkmnFont";
+  src: url("../Juego_EnBuscaDelGyaradosRojo/public/fonts/Pokemon\ Hollow.ttf");
+}
+
+header {
+  padding: 20px;
+}
+
+.headerTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerTitle h1 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-size: 2.5rem;
+  background: linear-gradient(
+    to right,
+    #ff4d4d 20%,
+    #ff0000 40%,
+    #ff3333 60%,
+    #ff6666 80%
+  );
+  background-size: 200%;
+  color: transparent;
+  background-clip: text;
+  animation: shine 6s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+body {
+  font-family: "PkmnFont", Arial, Helvetica, sans-serif;
+  background-image: url("../public/shinyHunt/mar.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.player {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tbody {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin: 0% 10% 5% 10%;
+  padding: 1%;
+}
+
+.timer {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+}
+
+#progressBar {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+#progress {
+  height: 100%;
+  transition: width 1s linear;
+}
+
+#timerNumber {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+}
+
+.attempts {
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+.animated {
+  animation: attemptAnimation 0.5s ease;
+}
+
+@keyframes attemptAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+img {
+  border-radius: 8px;
+}
+
+img {
+  transition: transform 0.3s ease;
+}
+
+img.flipped {
+  transform: rotateY(180deg);
+}

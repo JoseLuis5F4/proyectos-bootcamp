@@ -1,0 +1,12 @@
+.animated-text:hover {
+  animation: grayscaleAnimation 1s infinite alternate;
+}
+
+@keyframes grayscaleAnimation {
+  0% {
+    filter: grayscale(0%);
+  }
+  100% {
+    filter: grayscale(100%);
+  }
+}

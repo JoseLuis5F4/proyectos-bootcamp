@@ -1,0 +1,40 @@
+{
+  "NAV": {
+    "PERSONAJES": "CHARACTERS",
+    "CASAS": "HOUSES",
+    "CRONOLOGIA": "CHRONOLOGY"
+  },
+
+  "HOME_PAGE": {
+    "GAME-OF": "GAME OF",
+    "THRONES": "THRONES"
+  },
+
+  "DETAIL_HOUSE": {
+    "SETTLEMENT": "SETTLEMENT",
+    "UNKNOWN": "Could not obtain.",
+    "REGION": "REGION",
+    "ALLIANCES": "ALLIANCES",
+    "RELIGIONS": "RELIGIONS",
+    "FOUNDATION": "FOUNDATION",
+    "BACKBTN": "BACK"
+  },
+
+  "DETAIL_CHAR": {
+    "BACKBTN": "BACK",
+    "HOUSE": "HOUSE",
+    "ALLIANCES": "ALLIANCES",
+    "EPISODES": "EPISODES",
+    "PARENTS": "PARENTS",
+    "SIBLINGS": "SIBLINGS",
+    "TITLES": "TITLES"
+  },
+
+  "HOUSE_SEARCH": {
+    "SEARCH": "SEARCH..."
+  },
+
+  "CHARACTER_SEARCH": {
+    "SEARCH": "SEARCH..."
+  }
+}

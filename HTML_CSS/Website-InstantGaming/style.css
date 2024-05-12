@@ -1,0 +1,261 @@
+body{
+    background-color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    background-color: #000000;
+}
+
+a{
+    text-decoration: none;
+    margin: 3%;
+    color: white;
+}
+
+.header_logo{
+    width: 30%;
+    margin: 0% 3%;
+}
+
+.instantgaming_img{
+    width: 50%;
+}
+
+.header_nav{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.header_user{
+    width: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0% 3%;
+}
+
+.user_chart{
+    width: 30px;
+}
+.user_profile{
+    width: 30px;
+}
+
+.filtrer{
+    display: flex;
+    flex-direction: row;
+    background-color: #181716;
+    align-items: center;
+    margin: 0% 25%;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 720px;
+    height: 70px;
+}
+
+.search-icon_img{
+    width: 100%;
+}
+
+.banner_main{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 600px;
+    background-image: url(IMG/bannerPC_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.b_participate{
+    background-color: #FF3D17;
+    color: white;
+    font-weight: bold;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+}
+
+.tendencias_section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 2% 5%;
+}
+
+.tendencias_title{
+    color: white;
+}
+
+.tendencias_galery{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+}
+
+.game_galery{
+    width: 400px;
+    height: 200px;
+    border-radius: 5%;
+    margin: 5%;
+}
+
+.game_galery_info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    color: white;
+}
+
+.game_galery_info h3{
+    font-size: 16px;
+}
+
+.game_item{ 
+    margin: 2%;
+}
+
+.ratings_section{
+    background-color: #101010;
+}
+
+.valoraciones_img{
+    width: 100%;
+}
+
+.partnership_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #323232;
+    margin: 2% 0%;
+}
+
+.streamer_img_section{
+    width: 60%;
+}
+
+.streamer_img{
+    width: 50%;
+}
+
+.partnership_info{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.partnership_info p, span{
+    color: #969696;
+}
+
+.users_reviews{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.review_item{
+    display: flex;
+    background-color: #323232;
+    border-radius: 20%;
+    overflow: hidden;
+    margin: 1%;
+}
+
+.user_profile_img{
+    border-radius: 100%;
+    width: 12%;
+    height: 1%;
+    margin: 3%;
+}
+
+.user_stars_img{
+    width: 50%;
+}
+
+.user_name{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.user_comment{
+    color: white;
+    margin-right: 5%;
+    text-align:justify;
+}
+
+.promotion_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    widows: 100%;
+    background-color: #323232;
+}
+
+.telegram_img{
+    width: 5%;
+    margin: 1%;
+}
+
+.promotion_section span {
+    margin: 2%;
+}
+
+.instantgaming_footer_section{
+    background-color: #101010;
+}
+
+.instantgaming_footer_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul, li{
+    color: white;
+    list-style-type: none;
+    margin: 5% 0%;
+}
+
+b{
+    color: white;
+}
+
+.footer2_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101010;
+    padding: 0% 2%;
+}
+
+.footer2_sectionA{
+    background-color: #101010;
+}

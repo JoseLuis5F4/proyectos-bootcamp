@@ -1,0 +1,40 @@
+{
+  "NAV": {
+    "PERSONAJES": "PERSONAJES",
+    "CASAS": "CASAS",
+    "CRONOLOGIA": "CRONOLOGIA"
+  },
+
+  "HOME_PAGE": {
+    "GAME-OF": "JUEGO DE",
+    "THRONES": "TRONOS"
+  },
+
+  "DETAIL_HOUSE": {
+    "SETTLEMENT": "SEDE",
+    "UNKNOWN": "No se pudo obtener.",
+    "REGION": "REGION",
+    "ALLIANCES": "ALIANZAS",
+    "RELIGIONS": "RELIGIONES",
+    "FOUNDATION": "FUNDACION",
+    "BACKBTN": "VOLVER"
+  },
+
+  "DETAIL_CHAR": {
+    "BACKBTN": "VOLVER",
+    "HOUSE": "CASA",
+    "ALLIANCES": "ALIANZAS",
+    "EPISODES": "APARICIONES",
+    "PARENTS": "PADRES",
+    "SIBLINGS": "DESCENDIENTES",
+    "TITLES": "TITULOS"
+  },
+
+  "HOUSE_SEARCH": {
+    "SEARCH": "BUSCAR..."
+  },
+
+  "CHARACTER_SEARCH": {
+    "SEARCH": "BUSCAR..."
+  }
+}

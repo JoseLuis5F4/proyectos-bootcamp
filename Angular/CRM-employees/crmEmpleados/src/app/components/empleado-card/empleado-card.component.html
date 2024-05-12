@@ -1,0 +1,16 @@
+<div class="card shadow p-3 text-center">
+  <h3 class="fs-4">{{ empleadito.nombre }} {{ empleadito.apellidos }}</h3>
+  <p>Email: {{ empleadito.email }}</p>
+  <p>Teléfono: {{ empleadito.telefono }}</p>
+
+  <!-- Realizar la ruta de ver detalle. En ella, debemos cargar un único empleado usando la función getById-->
+  <button class="btn btn-danger" [routerLink]="['/empleados', empleadito._id]">
+    Ver Detalle
+  </button>
+
+  <!-- Necesitamos un nuevo componente empleadoView
+    Necesitamos una nueva ruta "empleados/:idempleado"
+    en empleadoView tenemos que usar el ActivatedRoute para capturar el id del empleado
+    y hacer una petición al servicio.
+    Pintar los datos de un empleado.-->
+</div>
